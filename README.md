@@ -91,7 +91,7 @@ git clone "https://github.com/GioTKD/Robotica"
 ### Wireshark Setup
 To seup wireshark we need to create a plugin, in order to do this click [here](https://mavlink.io/en/guide/wireshark.html)
 ### Build
-Before building source ROS2 installation, copy this into .bashrc:
+Before building source ROS2 installation(you need to run this for each terminal):
 ```
 source /opt/ros/humble/setup.bash
 ```
@@ -102,6 +102,7 @@ cd (name folder)
 and run
 ```
 colcon build
+source install/local_setup.bash
 ```
 once done, we will face a warning about setup.py, but it works.
 Then:
