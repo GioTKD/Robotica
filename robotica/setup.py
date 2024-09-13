@@ -20,7 +20,9 @@ setup(
     entry_points={
         'console_scripts': [
             'processes = robotica.processes:main',
-            'vehicleposition = robotica.vehicleposition:main'
+            'vehicleposition = robotica.vehicleposition:main',
+            'vehicleodometry = robotica.vehicleodometry:main',
+            'vehiclestatus = robotica.vehiclestatus:main'
         ],
     },
 )
